@@ -105,6 +105,17 @@ li {
   justify-content: space-between;
   align-items: center;
 }
+
+.task-item {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 li > * {
   vertical-align: middle;
 }

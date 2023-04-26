@@ -25,10 +25,11 @@
     text-align: center;
   }
 }
-  .main {
-    display: block;
-    width: 500px;
-    margin: 0 auto 0;
+
+.main {
+  display: block;
+  width: 500px;
+  margin: 0 auto 0;
 }
 
 .task__wrapper {

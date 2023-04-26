@@ -25,10 +25,11 @@
     text-align: center;
   }
 }
-  .main {
-    display: block;
-    width: 500px;
-    margin: 0 auto 0;
+
+.main {
+  display: block;
+  width: 500px;
+  margin: 0 auto 0;
 }
 
 .task__wrapper {
@@ -45,7 +46,7 @@ li {
   list-style: none;
 }
 
-li > * {
+.task > * {
   vertical-align: middle;
 }
 
@@ -65,7 +66,7 @@ button{
 }
 
 .button:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 
 /* Heading */
@@ -85,11 +86,12 @@ button{
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
+  border: 1px solid #ddd;
+  background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
+  flex-grow: 1;
 }
 
 .task__input:focus {
@@ -131,6 +133,7 @@ button{
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
+  flex-grow: 1;
 }
 
 .button__delete-img {
